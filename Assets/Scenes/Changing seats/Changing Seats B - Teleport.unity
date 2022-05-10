@@ -896,6 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfdbe430f6cd4da19c1a8a469a557a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  label: {fileID: 0}
 --- !u!114 &223974228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,6 +1106,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &286528749 stripped
@@ -1201,6 +1210,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &495413606 stripped
@@ -1263,6 +1280,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &515072137 stripped
@@ -1521,6 +1546,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &663655451 stripped
@@ -2263,6 +2296,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &1190611917 stripped
@@ -2423,6 +2464,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &1325006988 stripped
@@ -2593,6 +2642,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &1532698007 stripped
@@ -2629,6 +2686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6bddf1394de4e5cacfdfc1640dcc76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugTextMesh: {fileID: 223974227}
   seats:
   - {fileID: 2063161821}
   - {fileID: 1190611917}
@@ -3464,6 +3522,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &1809616521 stripped
@@ -3767,6 +3833,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &2024394928 stripped
@@ -3829,6 +3903,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &2060080780 stripped
@@ -3891,6 +3973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &2063161821 stripped
@@ -4088,6 +4174,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: index
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: debugTextMesh
+      value: 
+      objectReference: {fileID: 223974227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &2138623693 stripped
@@ -4216,11 +4310,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2855922433342919622, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6057080309775046614, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
       propertyPath: m_Name
       value: Seat
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7089238719103731982, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bca04965ac763450b98d6c04e3c51f6f, type: 3}
 --- !u!4 &8741425929888605999 stripped
 Transform:

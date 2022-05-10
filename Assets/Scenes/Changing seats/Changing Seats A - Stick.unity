@@ -896,6 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfdbe430f6cd4da19c1a8a469a557a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  label: {fileID: 0}
 --- !u!114 &223974228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2629,6 +2630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6bddf1394de4e5cacfdfc1640dcc76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugTextMesh: {fileID: 223974227}
   seats:
   - {fileID: 2063161821}
   - {fileID: 1190611917}

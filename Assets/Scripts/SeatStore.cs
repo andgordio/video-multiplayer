@@ -11,6 +11,8 @@ BUGS:
 public class SeatStore : MonoBehaviour
 {
 
+    [SerializeField] DebugTextMesh debugTextMesh;
+
     [SerializeField] List<Transform> seats;
     [SerializeField] List<Transform> avatars;
 
@@ -44,6 +46,7 @@ public class SeatStore : MonoBehaviour
                 indexOfPlayer = i;
             }
         }
+        // debugTextMesh.label.text = $"{indexOfPlayer}";
 
         /*
             2. Assign seats with Player always at the center
@@ -110,5 +113,19 @@ public class SeatStore : MonoBehaviour
         } else {
             lastJoystickTilt = 0;
         }
+    }
+
+    void MoveToIndex(int index)
+    {
+        debugTextMesh.label.text = $"moving to {index}";
+        Transform item = avatars[indexOfPlayer];
+        avatars.RemoveAt(indexOfPlayer);
+        avatars.Insert(index, item);
+        AssignSeats();
+    }
+
+    public void SwitchPlacesWithIndex(int index)
+    {
+        MoveToIndex(index - (6 - indexOfPlayer));
     }
 }
